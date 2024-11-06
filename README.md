@@ -1,63 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beautiful
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Beautiful Deserts Around the World</title>
-            <link rel="stylesheet" href="assets/css/style.css">
-        </head>
-        <body>
-        
-        <header>
-            <h1>Beautiful Deserts Around the World</h1>
-        </header>
-        
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="cities.html">Cities</a></li>
-                <li><a href="mountains.html">Mountains</a></li>
-                <li><a href="beaches.html">Beaches</a></li>
-                <li><a href="deserts.html">Deserts</a></li>
-            </ul>
-        </nav>
-        
-        <section>
-            <h2>Magnificent Deserts</h2>
-            <div class="container">
-                <div class="card">
-                    <h3>Sahara Desert</h3>
-                    <p>The Sahara is the largest hot desert in the world, covering most of Northern Africa.</p>
-                    <img src="/imagini/7.jpg" alt="Sahara Desert">
-                </div>
-                <div class="card">
-                    <h3>Atacama Desert</h3>
-                    <p>The driest desert in the world, located in Chile, known for its otherworldly landscapes.</p>
-                    <img src="/imagini/8.jpg" alt="Atacama Desert">
-                </div>
-                <div class="card">
-                    <h3>Namib Desert</h3>
-                    <p>The Namib is a coastal desert in Southern Africa, famed for its towering sand dunes.</p>
-                    <img src="/imagini/9.jpg" alt="Namib Desert">
-                </div>
-                <div class="card">
-                    <h3>Arabian Desert</h3>
-                    <p>A vast desert in the Arabian Peninsula, home to spectacular dunes and oases.</p>
-                    <img src="imagini/" alt="Arabian Desert">
-                </div>
-            </div>
-        </section>
-        
-        <footer>
-            <p>&copy; 2024 Beautiful Places. All rights reserved.</p>
-        </footer>
-        
-        </body>
-        </html>
-        
+    <title>Site Simplu HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: white;
+            max-width: 800px;
+            margin: 20px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bine ați venit pe site-ul meu</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Acasă</a>
+        <a href="#about">Despre</a>
+        <a href="#services">Servicii</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="content">
+        <h2>Despre noi</h2>
+        <p>Acesta este un exemplu de pagină web simplă creată cu HTML și CSS. Puteți personaliza acest template adăugând mai multe pagini, imagini și conținut specific nevoilor dumneavoastră.</p>
+        <h3>Serviciile noastre</h3>
+        <p>Oferim servicii de web design, dezvoltare web și optimizare SEO pentru afacerea dvs. Nu ezitați să ne contactați pentru mai multe detalii!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Site-ul Meu. Toate drepturile rezervate.</p>
+    </footer>
+
+</body>
+</html>
